@@ -1,5 +1,6 @@
 ---
 import { me } from "../models/me";
+import { Icon } from "astro-icon";
 ---
 
 <header class="w-full px-2 py-8 header">
@@ -10,13 +11,27 @@ import { me } from "../models/me";
     />
   </picture>
   <div class="[grid-area:info] rounded-md flex flex-col justify-between gap-4">
-    <div class="flex gap-4">
-      <h1 class="text-white text-2xl font-bold">{me.name}</h1>
-      <h4
-        class="text-zinc-400 bg-slate-900/80 transition-all ease-in-out hover:bg-slate-800 px-2 py-1 rounded-lg"
+    <div class="flex justify-between">
+      <div class="flex gap-4 flex-wrap">
+        <h1 class="text-white text-2xl font-bold">{me.name}</h1>
+        <h4
+          class="text-zinc-400 bg-slate-900/80 transition-all ease-in-out hover:bg-slate-800 px-2 py-1 rounded-lg"
+        >
+          aka {me.aka}
+        </h4>
+      </div>
+      <a
+        class="flex items-center"
+        href="/Portfolio/CV.pdf"
+        download="Elias_Currihuil_CV.pdf"
       >
-        aka {me.aka}
-      </h4>
+        <button
+          style={{ backgroundColor: "#E4405F" }}
+          class="text-zinc-200 p-1 rounded-md"
+        >
+          <Icon name="mdi:download" size="24" />
+        </button>
+      </a>
     </div>
     <div>
       <h2 class="[grid-area:desc] text-zinc-300">{me.description}</h2>

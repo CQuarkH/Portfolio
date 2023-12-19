@@ -8,7 +8,7 @@ export type SocialLink = {
 export const LinkedIn: SocialLink = {
   name: "LinkedIn",
   icon: "simple-icons:linkedin",
-  url: "https://www.linkedin.com/in/your-profile",
+  url: "https://linkedin.com/in/elías-currihuil-3573552a6",
   color: "#0A66C2",
 };
 
@@ -33,4 +33,4 @@ export const Instagram: SocialLink = {
   color: "#E4405F",
 };
 
-export const socials = [GitHub, Twitter, Instagram];
+export const socials = [GitHub, LinkedIn, Instagram];
