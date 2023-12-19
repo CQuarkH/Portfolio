@@ -1,0 +1,23 @@
+---
+import { projects } from "../models/projects";
+import ProjectCard from "./ProjectCard.astro";
+---
+
+<div class="project-list">
+  {projects.map((project) => <ProjectCard project={project} />)}
+</div>
+
+<style>
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  @media (max-width: 960px) {
+    .project-list {
+      padding: 0;
+    }
+  }
+</style>

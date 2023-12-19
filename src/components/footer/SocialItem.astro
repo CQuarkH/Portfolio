@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon";
+import type { SocialLink } from "../../models/socials";
+
+interface Props {
+  social: SocialLink;
+}
+
+const { social } = Astro.props as Props;
+---
+
+<a
+  href={social.url}
+  style={{ color: social.color }}
+  class="flex p-4 gap-2 items-center bg-slate-900/80 hover:bg-slate-800 transition-all ease-in-out rounded-lg"
+>
+  <Icon name={social.icon} size="24" />
+  <span> {social.name}</span>
+</a>
