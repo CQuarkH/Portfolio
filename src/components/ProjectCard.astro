@@ -9,15 +9,16 @@ interface Props {
 const { project } = Astro.props as Props;
 ---
 
-<div
-  class="project-card rounded-lg p-4 h-[250px] bg-slate-900/40 hover:bg-slate-800/40 transition-all ease-in-out hover:scale-[1.01]"
+<a
+  href={project.link}
+  class="project-card rounded-lg p-4 h-[250px] bg-slate-900/60 hover:bg-slate-800/40 transition-all ease-in-out hover:scale-[1.01] group"
 >
   <!-- Project Image -->
   <picture class="w-full max-w-[40%] h-auto aspect-square overflow-hidden">
     <img src={project.imageUrl} class="h-full w-full rounded-lg object-cover" />
   </picture>
   <!-- Project Content -->
-  <di v class="flex flex-col justify-between">
+  <div class="flex flex-col justify-between">
     <div class="flex flex-col gap-2">
       <!-- Name -->
       <h2 class="text-zinc-200 font-semibold text-lg">{project.name}</h2>
@@ -36,16 +37,13 @@ const { project } = Astro.props as Props;
           ))
         }
       </div>
-      <a
-        href={project.link}
-        class="flex gap-2 items-center justify-center transition-all ease-in-out bg-zinc-400 hover:bg-zinc-300 p-2 rounded-lg cursor-pointer"
-      >
+
+      <span class="text-zinc-500 group-hover:text-zinc-300">
         <Icon name="fa:link" size="24" />
-        <span> Link</span>
-      </a>
+      </span>
     </div>
-  </di>
-</div>
+  </div>
+</a>
 
 <style>
   .project-card {

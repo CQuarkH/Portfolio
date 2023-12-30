@@ -57,3 +57,15 @@ export const JavaScriptTech: Technology = {
   icon: "simple-icons:javascript",
   color: "#F7DF1E",
 };
+
+export const technologies: Technology[] = [
+  ReactTech,
+  SpringBootTech,
+  MySQLTech,
+  DartTech,
+  FlutterTech,
+  FirebaseTech,
+  KotlinTech,
+  JetpackComposeTech,
+  JavaScriptTech,
+];

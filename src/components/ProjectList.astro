@@ -3,10 +3,12 @@ import { projects } from "../models/projects";
 import ProjectCard from "./ProjectCard.astro";
 ---
 
-<div class="project-list">
-  {projects.map((project) => <ProjectCard project={project} />)}
+<div class="flex flex-col gap-4">
+  <h2 class="text-zinc-300 font-semibold py-6 text-xl">Projects</h2>
+  <div class="project-list">
+    {projects.map((project) => <ProjectCard project={project} />)}
+  </div>
 </div>
-
 <style>
   .project-list {
     display: flex;

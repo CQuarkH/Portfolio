@@ -2,12 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import Experience from "../content/collection/Experience.md";
 import ProjectList from "../components/ProjectList.astro";
+import Technologies from "../components/Technologies.astro";
 ---
 
 <Layout title="Elias Currihuil">
   <div class="prose prose-invert" style={{ width: "100%" }}>
     <Experience />
   </div>
-  <h2 class="text-zinc-300 font-semibold py-6 text-xl">Projects</h2>
+
+  <Technologies />
+
   <ProjectList />
 </Layout>
