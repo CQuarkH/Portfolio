@@ -1,4 +1,5 @@
 import {
+  AstroTech,
   DartTech,
   FirebaseTech,
   FlutterTech,
@@ -8,6 +9,7 @@ import {
   MySQLTech,
   ReactTech,
   SpringBootTech,
+  TypeScriptTech,
   type Technology,
 } from "./technologies";
 
@@ -30,13 +32,13 @@ export const projects: Project[] = [
     link: "https://play.google.com/store/apps/details?id=com.leafwaves.dev",
   },
   {
-    name: "MediOrganizer",
+    name: "SpaceXplorer",
     description:
-      "MediOrganizer is a desktop app that serves as a medical organizer, allowing you to register patients, consultation hours, and more.",
+      "An app leveraging the SpaceX API to provide launch, rocket, and launchpad details. Built from scratch with Astro and TypeScript, it features hydrated React components and is styled with Tailwind CSS.",
     imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/praisethesale-c921f.appspot.com/o/mediorganizer.png?alt=media&token=0c0eda92-ac8f-49ce-9f0d-788ca78a127b",
-    technologies: [KotlinTech, JetpackComposeTech],
-    link: "https://github.com/CQuarkH/MediOrganizer",
+      "https://private-user-images.githubusercontent.com/109247730/294303211-b3b2adc2-f7e8-4347-8074-d097e52d13ae.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ0MjcwMTIsIm5iZiI6MTcwNDQyNjcxMiwicGF0aCI6Ii8xMDkyNDc3MzAvMjk0MzAzMjExLWIzYjJhZGMyLWY3ZTgtNDM0Ny04MDc0LWQwOTdlNTJkMTNhZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEwNVQwMzUxNTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNzc2ZTZjOTk5NDM0YzFlNjJlMmU5MGI5YWNhMjRmYzMzZTA1NmNlOThlNzhmY2ZhMjMwZDQxYzZmMDdlZjAzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.WlQQKdt1BbEJ8WH_SeFg3Zw6Qoo0EzqZOXYD6NObG4I",
+    technologies: [AstroTech, ReactTech, TypeScriptTech, JavaScriptTech],
+    link: "https://spacexplorer-cyan.vercel.app/",
   },
   {
     name: "PraiseTheSale",
@@ -48,12 +50,12 @@ export const projects: Project[] = [
     link: "https://github.com/CQuarkH/PraiseTheSale",
   },
   {
-    name: "Steam Store Clone",
+    name: "MediOrganizer",
     description:
-      "A very basic clone of the Steam game store, developed with React and SpringBoot.",
+      "MediOrganizer is a desktop app that serves as a medical organizer, allowing you to register patients, consultation hours, and more.",
     imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/praisethesale-c921f.appspot.com/o/steam-clone.png?alt=media&token=e443e139-ff57-4b84-8392-4b10ef67fa4f",
-    technologies: [ReactTech, SpringBootTech, JavaScriptTech, MySQLTech],
-    link: "https://github.com/CQuarkH/Steam-Clone",
+      "https://firebasestorage.googleapis.com/v0/b/praisethesale-c921f.appspot.com/o/mediorganizer.png?alt=media&token=0c0eda92-ac8f-49ce-9f0d-788ca78a127b",
+    technologies: [KotlinTech, JetpackComposeTech],
+    link: "https://github.com/CQuarkH/MediOrganizer",
   },
 ];

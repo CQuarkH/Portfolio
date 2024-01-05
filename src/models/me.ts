@@ -1,25 +1,28 @@
-import {
-  FlutterTech,
-  JavaScriptTech,
-  KotlinTech,
-  ReactTech,
-  SpringBootTech,
-  type Technology,
-} from "./technologies";
+import { projects, type Project } from "./projects";
+import { socials, type SocialLink } from "./socials";
+import { technologies, type Technology } from "./technologies";
 
 type Me = {
   name: string;
   aka: string;
   description: string;
+  experience: string;
   tags: string[];
   email: string;
+  socials: SocialLink[];
+  projects: Project[];
+  technologies: Technology[];
 };
 
 export const me: Me = {
-  name: "Elías Currihuil",
-  aka: "c_quark",
+  name: "Hi, I'm Elías Currihuil",
+  aka: "C_Quark",
+  experience: "",
   description:
-    "Hi, I'm Elías from Temuco, Chile, an enthusiastic Computer Science student with a keen interest in learning and innovative tech solutions.",
+    "Web and Fullstack Developer as well as a Mobile Developer. From Temuco, Chile. Currently studying Computer Engineering at Universidad de la Frontera.",
   tags: ["Mobile Dev", "Web Dev", "Fullstack Dev"],
   email: "currihuile@gmail.com",
+  socials: socials,
+  projects: projects,
+  technologies: technologies,
 };

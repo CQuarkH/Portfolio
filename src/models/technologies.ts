@@ -58,6 +58,18 @@ export const JavaScriptTech: Technology = {
   color: "#F7DF1E",
 };
 
+export const AstroTech: Technology = {
+  name: "Astro",
+  icon: "vscode-icons:file-type-astro",
+  color: "",
+};
+
+export const TypeScriptTech: Technology = {
+  name: "TypeScript",
+  icon: "logos:typescript-icon",
+  color: "",
+};
+
 export const technologies: Technology[] = [
   ReactTech,
   SpringBootTech,
@@ -68,4 +80,6 @@ export const technologies: Technology[] = [
   KotlinTech,
   JetpackComposeTech,
   JavaScriptTech,
+  TypeScriptTech,
+  AstroTech,
 ];

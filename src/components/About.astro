@@ -1,0 +1,32 @@
+---
+import DownloadCV from "./header/DownloadCV.astro";
+import { me } from "../models/me";
+import { socials } from "../models/socials";
+import SocialItem from "./footer/SocialItem.astro";
+---
+
+<section class="rounded-md flex flex-col justify-between gap-8" id="about">
+  <img
+    class="w-14 h-14 rounded-full"
+    src="/Portfolio/images/profile-pic.jpeg"
+  />
+  <div class="flex justify-between">
+    <div class="flex gap-4 flex-wrap items-center">
+      <h1 class="text-white md:text-5xl text-3xl font-bold">{me.name}</h1>
+      <span
+        class="text-zinc-400 bg-black flex items-center justify-center max-h-8 transition-all ease-in-out px-2 py-1 rounded-lg"
+      >
+        aka <span class="text-orange-400/80 ml-2">{me.aka}</span>
+      </span>
+    </div>
+    <DownloadCV />
+  </div>
+  <div>
+    <h2 class="[grid-area:desc] text-zinc-300 md:text-xl text-lg">
+      {me.description}
+    </h2>
+  </div>
+  <div class="flex flex-wrap gap-4">
+    {socials.map((social) => <SocialItem social={social} />)}
+  </div>
+</section>

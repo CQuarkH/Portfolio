@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon";
+
+const downloadUrl =
+  "https://docs.google.com/document/d/1qm2QzbcmT926fEISBhZK3CwB0X5SOIPHzoZhfOk-1gw/export?format=pdf";
+---
+
+<a
+  class="flex items-center"
+  href={downloadUrl}
+  download="Elias_Currihuil_CV.pdf"
+>
+  <button
+    style={{ backgroundColor: "#E4405F" }}
+    class="text-zinc-200 p-1 rounded-md"
+  >
+    <Icon name="mdi:download" size="24" />
+  </button>
+</a>

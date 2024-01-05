@@ -12,7 +12,7 @@ const { social } = Astro.props as Props;
 <a
   href={social.url}
   style={{ color: social.color }}
-  class="flex p-4 gap-2 items-center bg-slate-900/80 hover:bg-slate-800 transition-all ease-in-out rounded-lg"
+  class="flex py-2 px-4 gap-2 items-center bg-transparent hover:scale-[1.01] opacity-80 hover:opacity-100 hover:border-zinc-300 border-zinc-500 border transition-all duration-300 ease-in-out rounded-xl"
 >
   <Icon name={social.icon} size="24" />
   <span> {social.name}</span>

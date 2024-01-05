@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
-import { me } from "../../models/me";
+import { me } from "../models/me.ts";
 
 function CopyIcon() {
   const [tooltipText, setTooltipText] = useState("Copy");

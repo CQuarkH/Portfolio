@@ -1,0 +1,58 @@
+---
+
+---
+
+<header
+  class="fade-in md:w-[500px] w-full h-8 rounded-md px-2 py-8 header flex items-center sticky top-0 z-30"
+>
+  <nav class="flex justify-between text-zinc-300 w-full md:px-4">
+    <a
+      href="#about"
+      class="flex hover:bg-[#1a0e27] hover:text-zinc-200 p-2 rounded-lg transition-all duration-300"
+      >About</a
+    >
+    <a
+      href="#projects"
+      class="flex hover:bg-[#1a0e27] hover:text-zinc-200 p-2 rounded-lg transition-all duration-300"
+      >Projects</a
+    >
+    <a
+      href="#technologies"
+      class="flex hover:bg-[#1a0e27] hover:text-zinc-200 p-2 rounded-lg transition-all duration-300"
+      >Technologies</a
+    >
+    <a
+      href="#contact"
+      class="flex hover:bg-[#1a0e27] hover:text-zinc-200 p-2 rounded-lg transition-all duration-300"
+      >Contact</a
+    >
+  </nav>
+</header>
+
+<style>
+  .fade-in {
+    animation: fadeIn 2.5s ease forwards;
+    animation-timeline: view();
+  }
+
+  @keyframes fadeIn {
+    from {
+      background-color: #2a173e;
+    }
+    to {
+      background: #1a0e27;
+    }
+
+    0% {
+      background-color: #2a173e;
+    }
+
+    50% {
+      background-color: #0d0a0f;
+    }
+
+    100% {
+      background-color: #1a0e27;
+    }
+  }
+</style>

@@ -1,25 +1,18 @@
 ---
 import { projects } from "../models/projects";
 import ProjectCard from "./ProjectCard.astro";
+import { Icon } from "astro-icon";
 ---
 
-<div class="flex flex-col gap-4">
-  <h2 class="text-zinc-300 font-semibold py-6 text-xl">Projects</h2>
-  <div class="project-list">
+<section class="flex flex-col gap-4" id="projects">
+  <h2 class="text-zinc-300 font-semibold py-6 text-2xl flex gap-4 items-center">
+    <span class="text-zinc-400"
+      ><Icon name="fa-solid:project-diagram" size="36" /></span
+    >
+    Experience / Projects
+  </h2>
+
+  <div class="flex flex-col gap-6">
     {projects.map((project) => <ProjectCard project={project} />)}
   </div>
-</div>
-<style>
-  .project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-  }
-
-  @media (max-width: 960px) {
-    .project-list {
-      padding: 0;
-    }
-  }
-</style>
+</section>
