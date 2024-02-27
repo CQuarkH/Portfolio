@@ -23,7 +23,7 @@ import TechnologyItem from "./TechnologyItem.astro";
             {e.description}
           </p>
 
-          <div class="flex gap-2">
+          <div class="flex flex-wrap gap-2">
             {e.technologies.map((technology) => (
               <TechnologyItem technology={technology} showLabel={false} />
             ))}
