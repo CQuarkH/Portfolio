@@ -70,6 +70,24 @@ export const TypeScriptTech: Technology = {
   color: "",
 };
 
+export const TailwindCSSTech: Technology = {
+  name: "Tailwind CSS",
+  icon: "vscode-icons:file-type-tailwind",
+  color: "",
+};
+
+export const NodeJSTech: Technology = {
+  name: "Node.js",
+  icon: "logos:nodejs-icon",
+  color: "",
+};
+
+export const ExpressTech: Technology = {
+  name: "Express",
+  icon: "simple-icons:express",
+  color: "#FBFBFB",
+};
+
 export const technologies: Technology[] = [
   ReactTech,
   SpringBootTech,
@@ -82,4 +100,7 @@ export const technologies: Technology[] = [
   JavaScriptTech,
   TypeScriptTech,
   AstroTech,
+  TailwindCSSTech,
+  NodeJSTech,
+  ExpressTech,
 ];

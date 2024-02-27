@@ -46,7 +46,7 @@ function CopyIcon() {
   return (
     <>
       <button
-        data-tooltip-id="my-tooltip"
+        data-tooltip-id="copy-tooltip"
         data-tooltip-content={`${tooltipText}`}
         className="p-2 rounded-lg"
         style={{ backgroundColor: "#E4405F" }}
@@ -54,7 +54,7 @@ function CopyIcon() {
       >
         <SvgIcon />
       </button>
-      <Tooltip id="my-tooltip" />
+      <Tooltip id="copy-tooltip" />
     </>
   );
 }

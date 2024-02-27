@@ -1,0 +1,15 @@
+---
+import { Icon } from "astro-icon";
+
+interface Props {
+  iconName: string;
+  label: string;
+}
+
+const { iconName, label } = Astro.props as Props;
+---
+
+<h2 class="text-zinc-300 font-semibold py-6 text-2xl flex gap-4 items-center">
+  <span class="text-zinc-400"><Icon name={iconName} size="36" /></span>
+  {label}
+</h2>
