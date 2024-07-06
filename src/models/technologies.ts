@@ -88,6 +88,19 @@ export const ExpressTech: Technology = {
   color: "#FBFBFB",
 };
 
+export const NextJSTech: Technology = {
+  name: "Next.js",
+  icon: "simple-icons:next-dot-js",
+  color: "#FFFFFF",
+}
+
+export const ArduinoTech: Technology = {
+  name: "Arduino",
+  icon: "simple-icons:arduino",
+  color: "#00979D",
+
+}
+
 export const technologies: Technology[] = [
   ReactTech,
   SpringBootTech,
