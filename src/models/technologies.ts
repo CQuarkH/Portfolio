@@ -94,11 +94,35 @@ export const NextJSTech: Technology = {
   color: "#FFFFFF",
 }
 
+export const DockerTech: Technology = {
+  name: "Docker",
+  icon: "simple-icons:docker",
+  color: "#2496ED",
+}
+
+export const GitTech: Technology = {
+  name: "Git",
+  icon: "simple-icons:git",
+  color: "#F05032",
+}
+
 export const ArduinoTech: Technology = {
   name: "Arduino",
   icon: "simple-icons:arduino",
   color: "#00979D",
 
+}
+
+export const VueJSTech: Technology = {
+  name: "Vue.js",
+  icon: "simple-icons:vue-dot-js",
+  color: "#4FC08D",
+}
+
+export const ViteTech: Technology = {
+  name: "Vite",
+  icon: "vscode-icons:file-type-vite",
+  color: "#646CFF",
 }
 
 export const technologies: Technology[] = [
@@ -116,4 +140,9 @@ export const technologies: Technology[] = [
   TailwindCSSTech,
   NodeJSTech,
   ExpressTech,
+  VueJSTech,
+  NextJSTech,
+  ViteTech,
+  DockerTech,
+  GitTech,
 ];

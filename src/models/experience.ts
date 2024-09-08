@@ -9,7 +9,10 @@ import {
   NodeJSTech,
   ReactTech,
   TailwindCSSTech,
+  VueJSTech,
+  ViteTech,
   type Technology,
+  DockerTech,
 } from "./technologies";
 
 interface Experience {
@@ -22,6 +25,18 @@ interface Experience {
 
 export const experience: Experience[] = [
   {
+    employer: "FONDECYT - TuTransparencia",
+    position: "Frontend Developer",
+    dateRange: "May 2024 - October 2024",
+    description: "Responsible for front-end development of TuTransparencia, a platform built under FONDECYT research to audit the transparency of Chilean public institutions. The development utilized technologies such as Vue.js, Tailwind CSS, Vitest, among others.",
+    technologies: [
+      VueJSTech,
+      TailwindCSSTech,
+      ViteTech,
+      DockerTech
+    ]
+  },
+  {
     employer: "IDEAUFRO - Instituto del Medio Ambiente UFRO",
     position: "Full-Stack Developer",
     dateRange: "March 2024 - July 2024",
@@ -33,7 +48,8 @@ export const experience: Experience[] = [
       NodeJSTech,
       ExpressTech,
       MySQLTech,
-      ArduinoTech
+      ArduinoTech,
+      DockerTech
     ]
 
   },
