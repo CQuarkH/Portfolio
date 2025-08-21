@@ -10,6 +10,42 @@ export const ReactTech: Technology = {
   color: "#61DAFB",
 };
 
+export const PythonTech: Technology = {
+  name: "Python",
+  icon: "simple-icons:python",
+  color: "#3776AB",
+};
+
+export const TensorFlowTech: Technology = {
+  name: "TensorFlow",
+  icon: "simple-icons:tensorflow",
+  color: "#FF6F00",
+};
+
+export const PyTorchTech: Technology = {
+  name: "PyTorch",
+  icon: "simple-icons:pytorch",
+  color: "#EE4C2C",
+};
+
+export const UNetTech: Technology = {
+  name: "U-Net",
+  icon: "mdi:vector-polygon",
+  color: "#4CAF50",
+};
+
+export const YOLOv5Tech: Technology = {
+  name: "YOLOv5",
+  icon: "mdi:target",
+  color: "#F59E0B",
+};
+
+export const SiameseNetworkTech: Technology = {
+  name: "Siamese Network",
+  icon: "mdi:link-variant",
+  color: "#9333EA",
+};
+
 export const SpringBootTech: Technology = {
   name: "SpringBoot",
   icon: "simple-icons:springboot",

@@ -19,6 +19,12 @@ import TechnologyItem from "./TechnologyItem.astro";
             {e.employer} <span class="text-zinc-500">|</span>{" "}
             <span class="text-yellow-200/90">{e.position}</span>
           </h3>
+          <a
+            href={e.url}
+            class="mb-1 text-sm font-normal leading-none text-blue-400/80 hover:text-blue-400 transition-all duration-200 dark:text-gray-500"
+          >
+            {e.url}
+          </a>
           <p class="py-2 mb-4 text-base font-normal text-gray-400">
             {e.description}
           </p>

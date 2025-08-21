@@ -13,11 +13,18 @@ import {
   ViteTech,
   type Technology,
   DockerTech,
+  PythonTech,
+  TensorFlowTech,
+  PyTorchTech,
+  UNetTech,
+  YOLOv5Tech,
+  SiameseNetworkTech,
 } from "./technologies";
 
 interface Experience {
   employer: string;
   position: string;
+  url?: string;
   dateRange: string;
   description: string;
   technologies: Technology[];
@@ -25,10 +32,28 @@ interface Experience {
 
 export const experience: Experience[] = [
   {
-    employer: "FONDECYT - TuTransparencia",
+    employer: "Sociedad de Ortodoncia de Chile",
+    url: "https://diagnosmart.espaciodentario.cl/",
+    position: "Full-Stack & AI Developer",
+    dateRange: "March 2025 - September 2025",
+    description:
+      "Developed and deployed a dental analysis system based on Artificial Intelligence to automatically detect clinical risks from panoramic radiographs. The system identifies orthodontic treatment needs or urgent interventions, helping to prevent invasive procedures such as surgeries. Achieved 80% accuracy using Deep Learning models (U-Net, YOLOv5, Siamese networks) for segmentation, detection, and comparison of dental structures.",
+    technologies: [
+      PythonTech,
+      TensorFlowTech,
+      PyTorchTech,
+      UNetTech,
+      YOLOv5Tech,
+      SiameseNetworkTech,
+      DockerTech
+    ]
+  },
+  {
+    employer: "FONDECYT - eTransparencia",
     position: "Frontend Developer",
+    url: "https://etransparencia.cl/",
     dateRange: "May 2024 - October 2024",
-    description: "Responsible for front-end development of TuTransparencia, a platform built under FONDECYT research to audit the transparency of Chilean public institutions. The development utilized technologies such as Vue.js, Tailwind CSS, Vitest, among others.",
+    description: "Responsible for front-end development of eTransparencia, a platform built under FONDECYT research to audit the transparency of Chilean public institutions. The development utilized technologies such as Vue.js, Tailwind CSS, Vitest, among others.",
     technologies: [
       VueJSTech,
       TailwindCSSTech,

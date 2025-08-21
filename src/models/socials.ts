@@ -26,11 +26,4 @@ export const Twitter: SocialLink = {
   color: "#1DA1F2",
 };
 
-export const Instagram: SocialLink = {
-  name: "Instagram",
-  icon: "simple-icons:instagram",
-  url: "https://www.instagram.com/c_quarkfpv",
-  color: "#E4405F",
-};
-
-export const socials = [GitHub, LinkedIn, Instagram];
+export const socials = [GitHub, LinkedIn];

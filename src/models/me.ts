@@ -19,8 +19,8 @@ export const me: Me = {
   aka: "C_Quark",
   experience: "",
   description:
-    "Web and Fullstack Developer as well as a Mobile Developer. From Temuco, Chile. Currently studying Computer Engineering at Universidad de la Frontera.",
-  tags: ["Mobile Dev", "Web Dev", "Fullstack Dev"],
+    "Web and Fullstack Developer as well as a Mobile Developer. From Temuco, Chile. Currently in the last semester of Computer Engineering at Universidad de la Frontera.",
+  tags: ["Web Dev", "Mobile Dev", "Fullstack Dev"],
   email: "currihuile@gmail.com",
   socials: socials,
   projects: projects,
