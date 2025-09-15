@@ -4,6 +4,12 @@ export type Technology = {
   color: string;
 };
 
+export const NestJSTech: Technology = {
+  name: "NestJS",
+  icon: "simple-icons:nestjs",
+  color: "#E0234E",
+};
+
 export const ReactTech: Technology = {
   name: "React",
   icon: "simple-icons:react",

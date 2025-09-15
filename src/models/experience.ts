@@ -19,6 +19,8 @@ import {
   UNetTech,
   YOLOv5Tech,
   SiameseNetworkTech,
+  SpringBootTech,
+  NestJSTech,
 } from "./technologies";
 
 interface Experience {
@@ -50,14 +52,16 @@ export const experience: Experience[] = [
   },
   {
     employer: "FONDECYT - eTransparencia",
-    position: "Frontend Developer",
+    position: "Full-Stack Developer",
     url: "https://etransparencia.cl/",
     dateRange: "May 2024 - October 2024",
-    description: "Responsible for front-end development of eTransparencia, a platform built under FONDECYT research to audit the transparency of Chilean public institutions. The development utilized technologies such as Vue.js, Tailwind CSS, Vitest, among others.",
+    description: "I developed an end-to-end platform to evaluate the transparency of Chilean public institutions, building both the complete frontend with Vue.js and backend integrations with SpringBoot and NestJS. I implemented differentiated functionalities for multiple roles (evaluated institutions, auditors, and administrators) with access to specialized dashboards. I designed and optimized the full-stack architecture, refactoring existing code to achieve a more scalable, maintainable, and efficient solution for processing large volumes of institutional transparency data.",
     technologies: [
       VueJSTech,
       TailwindCSSTech,
       ViteTech,
+      SpringBootTech,
+      NestJSTech,
       DockerTech
     ]
   },
