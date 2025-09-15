@@ -54,7 +54,7 @@ export const experience: Experience[] = [
     employer: "FONDECYT - eTransparencia",
     position: "Full-Stack Developer",
     url: "https://etransparencia.cl/",
-    dateRange: "May 2024 - October 2024",
+    dateRange: "April 2024 - November 2024",
     description: "I developed an end-to-end platform to evaluate the transparency of Chilean public institutions, building both the complete frontend with Vue.js and backend integrations with SpringBoot and NestJS. I implemented differentiated functionalities for multiple roles (evaluated institutions, auditors, and administrators) with access to specialized dashboards. I designed and optimized the full-stack architecture, refactoring existing code to achieve a more scalable, maintainable, and efficient solution for processing large volumes of institutional transparency data.",
     technologies: [
       VueJSTech,
