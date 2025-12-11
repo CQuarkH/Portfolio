@@ -17,10 +17,10 @@ type Me = {
 export const me: Me = {
   name: "Hi, I'm Elías Currihuil",
   aka: "C_Quark",
-  experience: "",
+  experience: "+3 Years",
   description:
-    "Web and Fullstack Developer as well as a Mobile Developer. From Temuco, Chile. Currently in the last semester of Computer Engineering at Universidad de la Frontera.",
-  tags: ["Web Dev", "Mobile Dev", "Fullstack Dev"],
+    "Software Engineer with +3 years of experience specialized in the convergence of Full Stack Development and Applied Artificial Intelligence. I focus on building scalable systems that integrate Deep Learning models and LLMs into robust production architectures. ",
+  tags: ["AI Engineer", "Fullstack Dev", "Data & Research"],
   email: "currihuile@gmail.com",
   socials: socials,
   projects: projects,
