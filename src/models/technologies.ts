@@ -187,7 +187,7 @@ export const LangChainTech: Technology = {
 
 export const LangSmithTech: Technology = {
   name: "LangSmith",
-  icon: "simple-icons:langsmith",
+  icon: "simple-icons:langchain",
   color: "#FF9900",
 }
 
