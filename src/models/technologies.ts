@@ -181,20 +181,20 @@ export const OpenAITech: Technology = {
 
 export const LangChainTech: Technology = {
   name: "LangChain",
-  icon: "simple-icons:langchain",
-  color: "#FF9900",
+  icon: "simple-icons:openai",
+  color: "#0051ffff",
 }
 
 export const LangSmithTech: Technology = {
   name: "LangSmith",
-  icon: "simple-icons:langchain",
-  color: "#FF9900",
+  icon: "simple-icons:chainlink",
+  color: "#6af7a0ff",
 }
 
 export const LangGraphTech: Technology = {
   name: "LangGraph",
-  icon: "simple-icons:langgraph",
-  color: "#FF9900",
+  icon: "simple-icons:openai",
+  color: "#0051ffff",
 }
 
 export const WhatsAppTech: Technology = {
