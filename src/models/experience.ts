@@ -21,6 +21,13 @@ import {
   SiameseNetworkTech,
   SpringBootTech,
   NestJSTech,
+  AWSCloudTech,
+  OpenAITech,
+  LangChainTech,
+  LangSmithTech,
+  WhatsAppTech, 
+  HubSpotTech,
+  LangGraphTech,
 } from "./technologies";
 
 interface Experience {
@@ -33,6 +40,14 @@ interface Experience {
 }
 
 export const experience: Experience[] = [
+  {
+    employer: 'Assetplan',
+    position: 'AI Engineer',
+    dateRange: 'January 2026 - Present',
+    description: 'AI Engineer in the PropTech sector, focused on architecting and deploying LLM-powered conversational agents using LangChain and LangGraph. My work drives automated lead qualification, scheduling, and customer operations via WhatsApp and HubSpot integrations. I also design and manage the underlying event-driven serverless infrastructure on AWS (Lambda, API Gateway, SQS) using Terraform, ensuring robust monitoring and evaluation with LangSmith.',
+    technologies: [PythonTech, DockerTech, PyTorchTech, AWSCloudTech, OpenAITech, LangChainTech, LangSmithTech, LangGraphTech, WhatsAppTech, HubSpotTech],
+  },
+  
   {
     employer: "Independent",
     position: "Research Assistant",

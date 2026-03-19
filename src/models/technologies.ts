@@ -167,6 +167,48 @@ export const ViteTech: Technology = {
   color: "#646CFF",
 }
 
+export const AWSCloudTech: Technology = {
+  name: "AWS Cloud",
+  icon: "simple-icons:aws",
+  color: "#FF9900",
+}
+
+export const OpenAITech: Technology = {
+  name: "OpenAI",
+  icon: "simple-icons:openai",
+  color: "#FF9900",
+}
+
+export const LangChainTech: Technology = {
+  name: "LangChain",
+  icon: "simple-icons:langchain",
+  color: "#FF9900",
+}
+
+export const LangSmithTech: Technology = {
+  name: "LangSmith",
+  icon: "simple-icons:langsmith",
+  color: "#FF9900",
+}
+
+export const LangGraphTech: Technology = {
+  name: "LangGraph",
+  icon: "simple-icons:langgraph",
+  color: "#FF9900",
+}
+
+export const WhatsAppTech: Technology = {
+  name: "WhatsApp",
+  icon: "simple-icons:whatsapp",
+  color: "#25D366",
+}
+
+export const HubSpotTech: Technology = {
+  name: "HubSpot",
+  icon: "simple-icons:hubspot",
+  color: "#FF7A59",
+}
+
 export const technologies: Technology[] = [
   ReactTech,
   SpringBootTech,
