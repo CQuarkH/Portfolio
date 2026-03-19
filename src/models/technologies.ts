@@ -169,7 +169,7 @@ export const ViteTech: Technology = {
 
 export const AWSCloudTech: Technology = {
   name: "AWS Cloud",
-  icon: "simple-icons:aws",
+  icon: "simple-icons:amazon",
   color: "#FF9900",
 }
 
